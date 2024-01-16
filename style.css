@@ -1,0 +1,24 @@
+.entete{
+  width: 80%; 
+  background-color: rgb(235, 219, 219);
+  margin: 10px auto;
+}
+.img{
+    display: inline-block;
+    width: 20%;
+}
+
+ .cv{
+     display: inline-block;
+     width: 70%;
+     text-align: center;
+ }
+ .img img{
+    width: 50%;
+    height: 50%; 
+ }
+ .cv{
+     display: inline-block;
+     width: 70%;
+     text-align: center;
+ }

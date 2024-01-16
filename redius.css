@@ -1,0 +1,27 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    background-color: brown;
+    padding: 10px;
+    color: white;
+    transition: 1s; 
+}
+p{
+    margin: 40px;
+}
+
+div:hover{
+    background-color: black;
+    color:green;
+    cursor: pointer;
+    box-shadow: 10px -10px rgb(237, 184, 9) ,
+               -10px -10px rgb(237, 184, 9),
+               10px 10px rgb(237, 184, 9),
+               -10px 10px rgb(237, 184, 9);
+}
