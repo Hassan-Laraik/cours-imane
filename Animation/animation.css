@@ -1,0 +1,54 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+body{
+    background-color: black;
+    width: 100%;
+}
+.square{
+    width: 100px;height: 100px;background-color: red;
+    animation-name: square;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    /*animation-direction: alternate;*/
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.square:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+@keyframes square {
+  
+    0%{
+        translate :0 0;
+        background-color: rgb(239, 79, 21);
+        rotate: 0deg;
+    }
+    25%{
+        translate :0 500px;
+        /*width: 100%;*/
+        background-color: rgb(247, 0, 255);
+        rotate: 90deg;
+    }
+    50%{
+        translate : 1028px 500px;
+        background-color: rgb(61, 42, 165);
+        rotate : 180deg;
+    }
+    
+    75%{
+        translate : 1028px 0px;
+        background-color: rgb(50, 191, 37);
+        rotate: 270deg;
+
+    }
+    100%{
+        translate : 0px 0px;
+        background-color: gray;
+        rotate: 360deg;
+
+    }
+}

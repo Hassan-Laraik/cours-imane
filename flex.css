@@ -1,24 +1,25 @@
 
 .flex-container {
  height: 600px;
+ background-color: DodgerBlue;
   display: flex;
- /* flex-wrap: wrap;
-  /*align-items : center;*/
-  /*align-items: flex-end;*/
-  /*align-items: flex-start;*/
- /* align-items: stretch;*/
-  background-color: DodgerBlue;
-  /*flex-direction: row;*/
-  /*flex-direction: row-reverse;*/
-  /*flex-direction: row;
-  f/*lex-direction: row-reverse;*/
-  /*flex-wrap: nowrap;*/
+ flex-wrap: wrap;
+ flex-wrap: nowrap;
+  align-items : center;
+  align-items: flex-end;
+  align-items: flex-start;
+  align-items: stretch;
+  flex-direction: row;
+  flex-direction: row-reverse;
+  flex-direction: row;
+  flex-direction: row-reverse;
+  
   justify-content: space-between;
-   /*justify-content: flex-end;
+   justify-content: flex-end;
    justify-content: center;
    justify-content: space-around;
     justify-content: space-between;
-   */
+   
 }
 
 .flex-container > div {
