@@ -1,0 +1,56 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    background-color: rgb(249, 184, 184);
+    padding: 10px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-rows: repeat(5,20vh);
+    row-gap: 2px;
+    column-gap:10px ;
+   /* grid-template-rows: repeat(3,1fr);*/
+   /*justify-content: space-evenly;*/
+}
+
+.parent div {
+    background-color: gold;
+}
+
+.parent .header{
+    background-color: blue;
+    grid-column: 1/4;
+}
+
+.parent .nav1 {
+    background-color: rgb(56, 56, 135);
+    grid-column: 1/2;
+    grid-row: 2/5;
+}
+.parent .nav2{
+    background-color: rgb(56, 56, 135);
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
+.parent .nav3{
+    background-color: rgb(56, 56, 135);
+    grid-column: 3/4;
+    grid-row: 2/5;
+}
+.parent .footer{
+    background-color: rgb(16, 160, 134);
+    grid-column: 1/4;
+    grid-row: 5/6;
+}
+
+
+
+
+
+
+
+

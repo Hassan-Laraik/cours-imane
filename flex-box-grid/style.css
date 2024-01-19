@@ -1,0 +1,24 @@
+.parent{
+    background-color: gold;
+    padding: 10px;
+    display: flex;
+    flex-direction : row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.parent div{
+    padding: 10px;
+    margin: 10px;
+}
+.item1{
+    background-color: green;
+}
+.item2{
+    background-color: red;
+}
+.item3{
+    background-color: blue;
+}
+.item4{
+    background-color: violet;
+}
